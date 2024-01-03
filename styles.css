@@ -46,6 +46,12 @@ li {
     font-size: 20px;
 }
 
+.svg-white {
+    filter: invert(99%) sepia(22%) saturate(2%) hue-rotate(196deg) brightness(110%) contrast(101%);
+    margin-bottom: -5px; /* aligns bottom of icon to word */
+    margin-right: 20px;
+}
+
 .searchbar-row {
     grid-area: 1 / 2 / 2 / 3;
     background-color: #FFFFFF;
@@ -158,6 +164,10 @@ button:hover {
     height: 150px;
     border-radius: 8px;
     border-left: 6px solid #F0B429;
+    display: grid;
+    grid: repeat(3, 1fr) / 1fr;
+    padding-bottom: 15px; /* creates space after icons */
+    box-shadow: 3px 3px 5px lightgray;
 }
 
 .projects-card p {
@@ -165,19 +175,28 @@ button:hover {
     font-weight: normal;
     font-size: 14px;
     padding-left: 15px;
+    padding-right: 15px;
+    grid-area: 2 / 1 / 3 / 2;
 }
 
 .projects-card .card-title {
     font-size: 16px;
     font-weight: bold;
     text-align: left;
-    padding-top: 15px;
+    padding-top: 30px;
+    grid-area: 1 / 1 / 2 / 2;
 }
 
 .projects-icons {
     font-size: 14px;
     font-weight: normal;
-    padding: 55px; /* ended HERE */
+    padding: 20px;
+    grid-area: 3 / 1 / 4 / 2;
+    justify-self: flex-end;
+}
+
+.icon-space {
+    padding-left: 20px;
 }
 
 .card1 {
@@ -218,6 +237,7 @@ button:hover {
     color: black;
     text-align: left;
     border-radius: 8px;
+    box-shadow: 3px 3px 5px lightgray;
 }
 
 .card-bottom {
@@ -226,4 +246,5 @@ button:hover {
     color: black;
     text-align: left;
     border-radius: 8px;
+    box-shadow: 3px 3px 5px lightgray;
 }
