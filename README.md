@@ -32,17 +32,17 @@ DONE In the header, use more grids to lay out the search bar, user info and butt
 
 DONE For the main-content, use more grids to lay out the projects, announcements and trending items.
 
-NEED PLACEHOLDER IMAGES -- Fill out some dummy content and placeholder images so you can position all of your grid items.
+DONE -- Fill out some dummy content and placeholder images so you can position all of your grid items.
 
 ### Step 4: Gather assets
 
-Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
+DONE Once you have your grid layout complete you can either recreate the dashboard example above or style your own design.
 
-Check out some color palettes from Tailwind.
+DONE Check out some color palettes from Tailwind.
 
-All of the icons and more can be downloaded as SVGs from Material Design Icons.
+DONE All of the icons and more can be downloaded as SVGs from Material Design Icons.
 
-Choose your own fonts! The design example uses Roboto, which is available with Google fonts.
+DONE Choose your own fonts! The design example uses Roboto, which is available with Google fonts.
 
 ### Step 5: Some tips!
 
