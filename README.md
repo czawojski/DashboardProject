@@ -32,7 +32,7 @@ DONE In the header, use more grids to lay out the search bar, user info and butt
 
 DONE For the main-content, use more grids to lay out the projects, announcements and trending items.
 
-DONE -- Fill out some dummy content and placeholder images so you can position all of your grid items.
+DONE  Fill out some dummy content and placeholder images so you can position all of your grid items.
 
 ### Step 4: Gather assets
 

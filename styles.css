@@ -91,6 +91,11 @@ li {
 .bell {
     grid-area: 1 / 3 / 2 / 4;
     justify-self: end;
+    transition-duration: 0.4s;
+}
+
+.bell:hover {
+    filter: invert(65%) sepia(61%) saturate(747%) hue-rotate(166deg) brightness(81%) contrast(100%);
 }
 
 .small-avatar {
